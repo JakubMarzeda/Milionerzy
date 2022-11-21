@@ -1,0 +1,64 @@
+body, html{
+    height: 598px;
+    margin:auto;
+    background-image: linear-gradient(0deg, rgba(192, 17, 207, 1) 0%, rgba(94, 51, 255, 1) 100%);
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:8%;
+    margin-right: 200px;
+}
+.quastion{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.content{
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 800px;
+    height: 400px;
+    background-image: linear-gradient(0deg, rgba(192, 17, 207, 1) 0%, rgba(94, 51, 255, 1) 100%);
+}
+.left-quastions, .right-quastions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top: 6%;
+}
+.left-buttons{
+    width: 200px;
+    height: 75px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: blueviolet;
+}
+.right-buttons{
+    width: 200px;
+    height: 75px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: blueviolet;
+}
+.win{    
+    border: 2px solid black;
+    width: 200px;
+    height: 650px;
+    margin-left: 1000px;
+    margin-top: -460px;
+    background-image: linear-gradient(0deg, rgba(192, 17, 207, 1) 0%, rgba(94, 51, 255, 1) 100%);   
+}
+.amounts li{
+    font-size: x-large;
+    padding: 13px;
+    margin-left: 8px;
+}
+header{
+    text-align: center;
+}
